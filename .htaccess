@@ -1,0 +1,16 @@
+RewriteEngine On
+
+# Redirect routes with a trailing slash to the same route without the trailing slash
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
+# Static Routes
+RewriteRule ^$ index.php [L]
+RewriteRule ^about$ about.php [L]
+RewriteRule ^contact$ contact.php [L]
+
+# 404 fallback (only if file/directory doesn't exist)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ 404.php [L]
