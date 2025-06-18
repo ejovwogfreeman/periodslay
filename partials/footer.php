@@ -4,8 +4,8 @@
         <div class="footer-content">
             <div class="footer-section">
                 <div class="footer-logo">
-                    <img src="img/logo.png" alt="PeriodSlay Logo" />
-                    <h3>Period<span>Slay</span></h3>
+                    <img src="img/mainlogo.png" alt="PeriodSlay Logo" width="120px" />
+                    <!-- <h3>Period<span>Slay</span></h3> -->
                 </div>
                 <p>
                     A world where menstruation is celebrated, empowering girls and
