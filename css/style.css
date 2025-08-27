@@ -224,10 +224,10 @@ body {
   gap: 12px;
 }
 
-/* .logo img {
+.logo img {
   width: 50px;
   height: 50px;
-} */
+}
 
 .logo h1 {
   font-family: var(--font-primary);
@@ -895,10 +895,10 @@ body {
   margin-bottom: 20px;
 }
 
-/* .footer-logo img {
+.footer-logo img {
   width: 40px;
   height: 40px;
-} */
+}
 
 .footer-logo h3 {
   font-family: var(--font-primary);
@@ -1192,10 +1192,10 @@ body {
     font-size: 16px;
   }
 
-  /* .logo img {
+  .logo img {
     width: 30px;
     height: 30px;
-  } */
+  }
 
   .logo h1 {
     font-size: 20px;

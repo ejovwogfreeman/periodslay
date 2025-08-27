@@ -66,8 +66,8 @@
             <div class="container">
                 <div class="navbar-content">
                     <div class="logo">
-                        <img src="img/mainlogo.png" alt="PeriodSlay Logo" width="120px" />
-                        <!-- <h1>Period<span>Slay</span></h1> -->
+                        <img src="img/logo.png" alt="PeriodSlay Logo" />
+                        <h1>Period<span>Slay</span></h1>
                     </div>
 
                     <ul class="nav-menu" id="navMenu">
